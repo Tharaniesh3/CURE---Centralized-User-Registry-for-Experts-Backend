@@ -217,10 +217,11 @@ router.post("/makeDiagnosis", async (req, res)=>{
     })
     }
     catch(err){
-        return res.status(500).json({
-            message: "Error",
-            error: err
-        })
+        // return res.status(500).json({
+        //     message: "Error",
+        //     error: err
+        // })
+        console.log(err);
     }
 })
 
