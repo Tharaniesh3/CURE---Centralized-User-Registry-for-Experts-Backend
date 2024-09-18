@@ -8,7 +8,7 @@ const cors = require("cors");
 app.use(express.json());
 
 const corsOptions = {
-  origin: "https://cure-centralized-user-registry-for-experts-m6vp.vercel.app",
+  origin: ['https://cure-centralized-user-registry-for-experts-m6vp.vercel.app','http://localhost:5173'],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
