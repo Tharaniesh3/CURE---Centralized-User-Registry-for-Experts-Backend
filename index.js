@@ -9,7 +9,7 @@ app.use(express.json());
 
 const corsOptions = {
   origin: ["http://localhost:5173","https://cure-centralized-user-registry-for-experts-m6vp.vercel.app","https://cure-centralized-user-registry-for-experts-backend.vercel.app"],
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
   credentials: true,
 };
 
